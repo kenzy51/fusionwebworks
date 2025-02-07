@@ -15,7 +15,7 @@ export default function Home() {
           content="Fusion Web crafts high-performance web products, blending innovation, cutting-edge technology, and user-centric design to drive digital transformation."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./icon2.png" />
       </Head>
       <Hero />
       <InfoSection />
