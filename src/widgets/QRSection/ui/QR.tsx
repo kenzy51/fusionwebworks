@@ -11,7 +11,7 @@ const QR = () => {
           <h1>Fusion Works LLC</h1>
           <a href="tel:+16186666119">+1(929)-769-6545</a>
           <a href="mailto:fusionworksweb@gmail.com">Email: fusionworksweb@gmail.com</a>
-          <address>Address: 2355 E 12th St #5J, Brooklyn, NY 11229</address>
+          <address>Address: Brooklyn, NY, 11229</address>
         </ContactInfo>
       </Container>
     </Wrapper>

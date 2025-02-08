@@ -4,8 +4,7 @@ import Link from "next/link";
 import { theme } from "@/styles/theme";
 import Image from "next/image";
 import logo from "@/shared/assets/Fusion.svg";
-
-import telegram from "public/svg/technologies/telegram-svgrepo-com.svg";
+import linkedin from "@/shared/assets/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -27,11 +26,14 @@ const Footer = () => {
             <a href="tel:+19297696545">
               <AnotherText>Contact us</AnotherText>
             </a>
+            <IconLink href="https://www.linkedin.com/company/fusion-web-works/?viewAsMember=true">
+              <Image src={linkedin} width={30} height={40} alt="icon" />
+            </IconLink>
           </FooterBottomRight>
           <FooterBottomLeft>
             <IconLink href="/">
               <Image src={logo} width={290} height={130} alt="icon" />
-            </IconLink>
+            </IconLink>{" "}
           </FooterBottomLeft>
         </FooterBottom>
       </Container>
