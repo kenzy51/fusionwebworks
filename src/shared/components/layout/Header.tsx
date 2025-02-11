@@ -41,7 +41,7 @@ const navbarItems: MenuItemType[] = [
       {
         id: 1,
         title: "lorem",
-        link: "/",
+        link: "/portfolio",
       },
     ],
   },

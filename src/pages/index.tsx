@@ -4,6 +4,7 @@ import { InfoSection } from "@/widgets/InfoSection";
 import DeepResearch from "@/widgets/DeepResearch/ui/DeepResearch";
 import { QR } from "@/widgets/QRSection";
 import { Technologies } from "@/widgets/Technologies";
+import PortfolioSection from "@/widgets/PortfolioSection/ui/PortfolioSection";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <InfoSection />
       <DeepResearch />
       <Technologies />
+      <PortfolioSection />
       <QR />
     </>
   );
